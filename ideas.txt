@@ -1,0 +1,47 @@
+H2S ML Idea Index
+=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Proposed Structure
+=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Online Material: Coursera - IBM's Machine Learning with Python.... https://www.coursera.org/learn/machine-learning-with-python/home/welcome
+
+Part 1...
+----------
+Week 1 & week 2 - Roughly 3 Hours of content.
+
+To Do: Watch all videos and take notes for what ML is, What it can do, and the difference between Supervised and Unsupervised learning. for Week 2 they should take notes on what the LR and NLR models do and how to deploy them.
+
+Grading: Show any notes and go to Linear Regression lab and explain in detail what the program's steps are to deploying the model.
+
+Part 2...
+----------
+KNN & Decision Trees of Week 3 - Roughly 2 Hours of content.
+
+To Do:
+
+Grading: Show any notes and go to K Nearest Neighbors lab and explain in detail what the program's steps are to deploying the model.
+
+Part 3...
+----------
+Logistic Regression & Support Vector Machines of Week 3 - Roughly 2 Hours on content.
+
+To Do:
+
+Grading: Show any notes and go to Support Vector Machine lab and explain in detail what the program's steps are to deploying the model.
+
+Part 4...
+----------
+Final Project: With Machine Learning - Roughly 9 Hours of content.
+
+Total Completion Time: Approx 15 Hours - 6-8 sessions OR 1.25-1.6 months.
+
+Sources
+=-=-=-=-=-=-=-=-=-=-=-=-=
+Videos
+----------
+CGP Gray - How Machines Learn: https://youtu.be/R9OHn5ZF4Uo
+
+
+Articles
+----------

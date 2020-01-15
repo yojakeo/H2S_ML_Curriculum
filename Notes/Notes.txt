@@ -1,0 +1,116 @@
+Notes on Coursera: IBM's Machine Learning with Python
+....
+
+Machine Learning is a method of computing that allows a computer to "learn" from data for vast processing of data and utility in a variety of ways. Essentially having a computer program itself for a very specific task. Everything from AI to the tech allowing for driver less vesicles are under the umbrella of Machine Learning.
+
+There are 3 "Levels" of ML.
+Artificial Intelligence: Programs that allow computers to mimic reason and learning just like humans do it. 
+Machine Learning: These are algorithms that allow a computer to learn and then do a cretin task without being explicitly programmed to do so.
+Deep Learning: Usually is referred to when it comes to the subject of Neural Networks. 
+
+Over/Under Fitting
+..............
+Over Fitting is when a model has been over trained to be used with the training set of data. Creating high amounts of variance and make the model invalid. The data within the training set has high accuracy. But outside of the data set with new data that the model has not yet run into will make it miss.
+
+Under fitting is usually not a problem besides when there is a lack of data to train the model with. This often leads to a high bias in the model that makes it too rigid and will under/over shoot the data.
+
+Fitting is often paired with a phrase in the Machine Learning scape called "Generalization". Meaning the ability to fit an unseen instance of data. is it under-fit so the model has not yet captured the pattern in the data to have the ability to predict it? Or has it been over fit that it has become too specific to the training data?
+
+
+Types of Learning
+............
+Supervised Learning
+=====================
+With supervised learning. It is assumed we are being given a data set we have already processed and know the output of what the model should look like to assure it's accuracy. Common models such as this are called Regression or Classification models. The applications of such models are for example Email spam filters. Medical diagnosis and facial detection.
+
+Unsupervised Learning
+=====================
+Unsupervised Learning is often with unlabeled data. Data that either has not yet been processed and is for say a raw image capture of a number. We don't know where the number is exactly or what it is. These kinds of models are great for recommending and suggesting things to a user. Or being used as a processor to label and then feed that newly labeled info to another ML algorithm. This is the process you would use to have a string of digits in a picture be recognized and parsed to be put into digital format.
+
+Reinforcement Learning
+=====================
+Reinforcement Learning where Supervised learning isn't realistic, and where Unsupervised learning isn't quite what we're looking for. Reinforcement learning is the closest type of learning to bridge the gap between the Brain and computers. It is a hybrid of both types of learning to combine into what Humans do. By doing an action. Observing what that action did and receiving a reward and/or punishment for that action. These kinds of models are most often used in Self-driving tech and Autonomous Robots.
+
+........
+Regression
+........
+Linear Regression
+-----------------
+Linear Regression is a mathematical model that can on two dimensions find the relationship of numeric values and states in a labeled list. For example if given 2 grades of 1000 Student's test scores. The model should be able to predict what the 3rd test score for that student with the proper data.
+
+Model: y^ = THETA0 + THETA1 x1
+
+Non-Linear Regression
+-----------------
+Non-Linear Regression is a mathematical model that like Linear Regression can predict the value from a multi-dimensional array of labeled data. But designed instead for data that doesn't have a linear path. Such as the amount of processors in a computer in the up coming years. That is an exponential growth instead of a linear growth of computational power. There are different sub-types of Non-Linear Regressions as data can take many different shapes. It can be Quadratic, Cubic, Exponential. And a huge array of others too. 
+
+Multi Linear Regression
+------------------
+Multiple Linear Regression is an extension of the Linear Regression model that allows for using a multi dimensional array of data of greater than 2. Allowing the user to use more variables.
+
+Model: y^ = THETA0 + THETA1x1 + THETA2x2... (Repeats for each Independent Value.)
+
+.........
+Classification
+.........
+KNN (K Nearest Neighbors)
+--------------------
+KNN is a classification model that will take in data that is already labeled on a multi dimensional array. It will take in new unclassified data and find the most appropriate class from the nodes around it. That's the what the K is, K represents the number of nearest neighbors. If you have a K of 5. the model will find the 5 most similar nodes and probe for their types. If a majority is found then that previously unlabeled node will be given the type of the majority.
+
+KNN can also be used in a regressive manor as well. Progressively finding a house with the right attributes you are looking for. or what your house is valued at by the surrounding properties and the assets of your home.
+
+Decision Trees
+-------------------
+Decision Trees is a model that requires lots of supervision to train. It tries to create a tree of options that in theory should lead to less "entropy". Entropy in this case meaning that the purity in that decision is higher. For example a choice of two different drugs for a patient with a list of attributes. If one attribute is found to create more purity in the data, or lead to a bigger majority of classification that will then be picked and the cycle will be repeated.
+
+DTs are built off of recursive partitioning of the data. It will try and find the best attribute the split nodes to find the best method heightening the purity of the leaves. This is repeated until and leaves of the tree are 100% pure. The selection of a good classifier is based off of it's predictiveness and amount of lowered entropy.
+
+
+Logistic Regression
+-------------------
+Logistic Regression is a classification algo for categorical values. It is great for use in prediction of a purchase or subscription. It is best used when you need a binary answer with the probability and it is Linear. Logistic Regression is essentially Linear Regression but for classifiable values instead of numeric values. 
+
+Logistic vs Linear...
+
+Linear is not what you would want if you want to calculate the probability if a class definition. This is fixed in Logistic Regression with a Sigmoid function.
+
+Logistic is primarily a chance or probability model. Working with binary statements. OR it is used in multi-categorical data as well. While still giving the chance of the class assignment.
+
+Training...
+
+Logistic Regression is randomly set and is optimized using something like Gradient Decent to reduce the cost of the model. This is because the Logistic Regression model is primarily a weighted system. Like what NNs do but simpler.
+
+Gradient Decent is a optimization model that iteratively brings down the cost of a model. The calculated cost slope is what make gradient descent a "decent" down to the lowest part of the bowl. Or to our ideal cost of 0.
+
+Training step by step...
+1. Init prams with random values.
+2. Feed the cost function with the training set and calculate the error.
+3. Calculate gradient of cost.
+4. Update weights.
+5. Loop back to step 2.
+6. Model ready for deployment.
+
+SVM (Support Vector Machine)
+-------------------
+Classification model
+
+SVM works by finding a separator in the data. Alike KNN by making clusters of data it finds a vector where the classification changes. This is done in multiple ways such as kerneling, The act of bringing the set of data up to a higher dimension. Like turning a 2D array into a 3D array.
+
+Types of Kerneling
+- Linear
+- Polynomial
+- RBF
+- Sigmoid
+- (There are more)
+
+the hyperplane in the SVM model is find by finding the biggest margin between SUpport Vectors. Support vectors are nodes that are the closest to the proposed hyperplane. the most ideal hyper plane is the one with the biggest margin possible.
+
+Pros and Cons.
+Accurate in high dimensional spaces.
+Memory efficient
+
+Prone to over fitting (if the # of features are more than the number of samples).
+no probability calc.
+only viable for small data sets.
+
+Great for: Image recog, Text category, Spam, Sentiment Analysis.
