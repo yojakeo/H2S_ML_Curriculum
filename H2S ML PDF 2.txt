@@ -1,0 +1,30 @@
+Machine Learning Final Project
+
+The start to everything
+
+Jake Parbs japarbs@42.us.org
+
+Summary: Deploy a model with the Iris data set to predict the class with highest accuracy possible.
+
+Contents:
+	1. Setting up your own environment.
+	2. Data Download.
+	3. Off to the races!
+
+Chapter 2
+Data Download
+
+The data set we'll be using is called the Iris Data Set. It's a simple data set of the measurements of different Iris flowers. This is a classification problem so make sure to use classification models. Download the dataset here(iris.data): https://archive.ics.uci.edu/ml/machine-learning-databases/iris/
+
+Chapter 3
+Off the the races!
+
+Now that you have everything set up. You're ready to use all the knowledge you've gained to create a model to predict the class of an iris flower. Don't be afraid to look back at the Coursera course for a refresher and talk to your peers if you get stuck!
+
+Ex00:
+	Expected files: iris_project.py
+	The project when completed should show the following:
+		- Confusion Matrix
+		- Jaccard Index
+		- Test set accuracy
+	Anything extra is bonus. 

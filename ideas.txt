@@ -8,33 +8,28 @@ Online Material: Coursera - IBM's Machine Learning with Python.... https://www.c
 
 Part 1...
 ----------
-Week 1 & week 2 - Roughly 3 Hours of content.
+Week 1 & week 2 - Roughly 6 Hours of content total.
+
+3 hours learning
+1 hour setting up environment
+2 hours showcase project. 
 
 To Do: Watch all videos and take notes for what ML is, What it can do, and the difference between Supervised and Unsupervised learning. for Week 2 they should take notes on what the LR and NLR models do and how to deploy them.
 
-Grading: Show any notes and go to Linear Regression lab and explain in detail what the program's steps are to deploying the model.
+Showcase Project: 
+
+Grading: Effectiveness of showcase project. Is the environment working? Explain how the Linear Regression model works.
 
 Part 2...
-----------
-KNN & Decision Trees of Week 3 - Roughly 2 Hours of content.
+---------
+KNN of Week 3 - Roughly 4 Hours of content total.
+
+2 hours of learning
+2 hours of showcase project
 
 To Do:
 
 Grading: Show any notes and go to K Nearest Neighbors lab and explain in detail what the program's steps are to deploying the model.
-
-Part 3...
-----------
-Logistic Regression & Support Vector Machines of Week 3 - Roughly 2 Hours on content.
-
-To Do:
-
-Grading: Show any notes and go to Support Vector Machine lab and explain in detail what the program's steps are to deploying the model.
-
-Part 4...
-----------
-Final Project: With Machine Learning - Roughly 9 Hours of content.
-
-Total Completion Time: Approx 15 Hours - 6-8 sessions OR 1.25-1.6 months.
 
 Sources
 =-=-=-=-=-=-=-=-=-=-=-=-=
@@ -45,3 +40,18 @@ CGP Gray - How Machines Learn: https://youtu.be/R9OHn5ZF4Uo
 
 Articles
 ----------
+
+
+
+Notes
+--------
+PDF structure
+
+Sessions 1: 2 hours of learning
+Sessions 2: 2 hours of learning
+Sessions 3: 2 hours of learning
+Sessions 4: 2 hours of showcase
+
+Showcase is them being pulled out of the sandbox and it's visual. Every PDF must end in a showcase project.
+
+Roughly 1 month of content or less per PDF (About 8 hours of content).

@@ -7,19 +7,20 @@ Jake Parbs japarbs@42.us.org
 Summary: Intro to multiple ML models, methods and use cases.
 
 Contents:
-1. Intro into Machine Learning
-2.
-3.
-4.
-5.
-6.
-7.
-8.
+1. About the course
+2. Coursera Setup
+3. Intoduction to Machine Learning
+4. Linear and Non-Linear Regression
+5. K-Nearest Neighbors
+6. Evaluation Metrics in Classification
+7. Decision Trees
+8. Logistic Regression
+9. Support Vector Machine
 
 Chapter 1
 About the course...
 
-This will be a relativity fast paced look into Machine Learning and a bunch of it's models. With the help of Coursera (Awesome website) and your peers to bounce off of, You will dive into the world of Machine Learning and learn about a bunch of practices, models, use cases, and some other things along the way. This course will be using weeks 1 though 3 to of Machine Learning with Python by IBM on Coursera. If you enjoy this course and Machine Learning I highly encourage you to complete the rest of the course after we've finished everything here.
+This will be a relativity fast paced look into Machine Learning and a bunch of models. With the help of Coursera (Awesome website) and your peers to bounce off of, You will dive into the world of Machine Learning and learn about a bunch of practices, models, use cases, and some other things along the way. This course will be using weeks 1 though 3 to of Machine Learning with Python by IBM on Coursera. If you enjoy this course and Machine Learning I highly encourage you to complete the rest of the course after we've finished everything here.
 
 This course will assume you know basic Python syntax. The Coursera course has working practice code via online Jupyter Notebooks.
 
@@ -28,7 +29,7 @@ Coursera Setup
 
 You will need to create a account in order to use Coursera. It's the same as any other web sign up and is 100% free. You don't need to get a certificate. Once you've done that, enroll into the course. Once in the course you should be brought to the overview page. Now we can get into the swing of things!
 
-Since we are using a free version of the Coursera course. We will not be using the Quizes that is built into the curriculum. However do feel free to use the in-video question pop ups to make sure you understand the topic if you wish!
+Since we are using a free version of the Coursera course. We will not be using the Quizes that are built into the curriculum. However do feel free to use the in-video question pop ups to make sure you understand the topic if you wish!
 
 Chapter 3
 Introduction to Machine Learning
@@ -66,16 +67,28 @@ Ex00:
 Chapter 6
 Evaluation Metrics in Classification
 
-
+Classification Accuracy
+Jaccard Index
+Confusion Matrix
+Log Loss
 
 Chapter 7
 Decision Trees
 
+Ex00:
+	- Give a brief explanation on how the Decision Trees model works.
+
+	- What is entropy in the context of Decision Trees?
 Chapter 8
 Logistic Regression
 
 Ex00:
-	- What is the difference between Logistic Regression and Linear Regression?
+	- What are the differences between Logistic Regression and Linear Regression?
 
 Chapter 9
 Support Vector Machine
+
+Ex00:
+	- Give a brief explanation on how the Support Vector Machine model works.
+
+	- What is a hyper plane?

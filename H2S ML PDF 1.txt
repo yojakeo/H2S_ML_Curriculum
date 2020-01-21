@@ -1,0 +1,87 @@
+Machine Learning in Python (ML)
+
+The start to everything
+
+Jake Parbs japarbs@42.us.org
+
+Summary: Intro to Linear and Non-Linear models, methods and getting started.
+
+Contents:
+1. About the course
+2. Coursera Setup
+3. Intoduction to Machine Learning
+4. Linear and Non-Linear Regression
+
+Chapter 1
+About the course...
+
+This will be a relativity fast paced look into Machine Learning. With the help of Coursera and your peers to work off of. You will dive into the world of Machine Learning and learn about a lot of practices, models, use cases, and some other things along the way. This course will be using weeks 1 though 3 to of Machine Learning with Python by IBM on Coursera. If you enjoy this course and Machine Learning it's highly encouraged you to complete the rest of the course after we've finished everything here.
+
+This course will assume you know basic Python syntax. The Coursera course has working practice code via online Jupyter Notebooks.
+
+Chapter 2
+Coursera Setup
+
+You will need to create a account in order to use Coursera. It's the same as any other web sign up and is 100% free. Once you've done that, enroll into the course. Once in the course you should be brought to the overview page. Now we can get into the swing of things!
+
+We will not be using the Quizzes that are built into the curriculum on Coursera. However do feel free to use the in-video questions to make sure you understand the topic!
+
+Chapter 3
+Introduction to Machine Learning
+
+In week 1 of IBM's course. There are a series of videos that will explain what machine learning is and some terminology within the ML field.
+
+Ex00:
+	<link>
+
+Chapter 4
+Linear & Non-Linear Regression
+
+In week 2 there are videos that will explain Linear, Multiple Linear and Non-Linear regression models.
+
+Ex00: Linear Regression
+	<link>
+
+Ex01: Multiple Linear Regression
+	<link>
+
+Ex02: Non-Linear Regression
+	<link>
+
+
+Chapter 5
+Showcase Project setup
+
+This showcase project is for you to practice what you just learned for Linear Regression and learn how to setup your own environment.
+During your time with Machine Learning in Coursera. You've been using the Jypter notebooks IBM hosts for practicing code. Now it is time for you to create your own environment to do this final project!
+
+Anaconda:
+		Anaconda is a platform that has tons and tons of tools for Machine learning and in python in general. Great for Python version and package control and a bunch of other things. For now however we just want to use it to have our own development environment.
+		Download Anaconda for Python 3.7 here: https://www.anaconda.com/distribution/ 
+		Anaconda will take a while to download and install. Lets install Pycharm as we wait.
+
+Pycharm:
+		You'll also need an IDE to develop in. I recommend Pycharm but you can use another IDE if you prefer. Pycharm does however have built-in support for Anaconda environments. You can download Pycharm here (Download Community): https://www.jetbrains.com/pycharm/download/#section=mac
+
+Packages:
+		Next we'll need to install our packages in order to actually do Machine Learning. With Anaconda installed we can now create our environment and install all needed packages in a Unix terminal. The following command will install a Conda environment named "ml_env" in Python 3.7
+		-conda create -n ml_env python=3.7
+
+		This command will then activate the Conda environment and allow us to configure it.
+		-conda activate ml_env
+
+		Now that the environment is installed and selected, run the following commands to install our packages.
+		-pip install numpy
+		-pip install pandas
+		-pip install sklearn
+		-pip install matplotlib
+
+		Now that we have all packages installed and everything setup. We're ready to start developing. Open Pycharm and create a new project and select the conda environment you've just created.
+
+Chapter 6
+Showcase Project
+
+	ex00:
+		Create a showcase project with this dataset showing the linear relation of #1 and #2 with matplotlib with a line of best fit. And a Linear Regression model to predict outside of dataset cases.
+
+		<reminder> Use the Jypter notebooks if you're lost!
