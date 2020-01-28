@@ -1,0 +1,19 @@
+Coursera:
+Have they watched every video and completed every lab from weeks 1 and 2?
+True or false
+
+Project:
+
+Does the program display the filtered data?
+Does the program give accuracy via the R-2 score?
+Does the program display a graph of the data with a line of best fit from the model?
+True or false
+
+For each additional statistic and action in the program. Add one point.
+Scale of 0 to 5.
+
+
+Bonus:
+Readme is in markdown, contains: a summary, Machine Learning definition, Challenges they faced and what they’ve learned.
+True or false
+
