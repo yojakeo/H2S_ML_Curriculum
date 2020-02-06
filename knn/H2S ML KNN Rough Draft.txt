@@ -1,0 +1,37 @@
+Introduction to Classification: K Nearest Neighbors in Python
+
+Know your neighbors
+
+Jake Parbs japarbs@42.us.org
+
+Summary: Intro to Classification, K Nearest Neighbors model and practice project.
+
+Contents:
+	3. Showcase Project
+
+Foreword:
+
+
+Chapter 1
+Ex00: K Nearest Neighbors
+https://www.coursera.org/learn/machine-learning-with-python/lecture/95g22/introduction-to-classification
+
+Chapter 2
+Ex01: Showcase Project
+
+Run the following command within your working directory to download the dataset.
+wget -O iris.data https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.dat
+
+We will be using the same environment for the last Showcase Project in "Introduction to Machine Learning in Python". If you don't have your environment from the previous project refer to chapter 6 of the last PDF.
+
+	Expected files: showcase.py
+	
+
+The project when completed should show the following:
+	- Confusion Matrix
+	- Jaccard Index
+	- Test set accuracy
+
+Accept an input of the 3 measurements of the Iris flower to then predict the class of the flower.
+
+Display a scatter plot of the data with the classes of flowers colour coded. User inputed data will be red and placed on the scatter plot accordingly.

@@ -1,0 +1,18 @@
+Coursera:
+(Hyperlink Week 3 for ease of access.
+Week 3: https://www.coursera.org/learn/machine-learning-with-python/home/week/3)
+
+Have they watched every video and completed the lab from K Nearest Neighbor from Week 3? (Quizes are to be ignored).
+True or false
+
+Showcase Project:
+Does the program display the dataset read?
+True or false
+Does the program display both training accuracy and test accuracy?
+True or false
+Does the program display a graph of the data comparing Petal Width and Petal Length?
+True or false
+Does the graph color-code the data by Iris type and shows what color corolates to which Iris?
+True or false
+
+Total: 100%

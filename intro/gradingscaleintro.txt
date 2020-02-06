@@ -1,0 +1,33 @@
+ Coursera:
+(Hyperlink Week 1 and Week 2 for ease of access.
+Week 1: https://www.coursera.org/learn/machine-learning-with-python/home/week/1
+Week 2: https://www.coursera.org/learn/machine-learning-with-python/home/week/2)
+
+Have they watched every video from week 1? (Quizes are to be ignored).
+True or false
+Have they watch every video and lab from week 2? (Quizes are to be ignored).
+True or false
+
+
+Showcase Project:
+Does the program display the filtered data?
+True or false
+Does the program display accuracy via the R-2 score?
+True or false
+Does the program display a graph of the data with a line of best fit from the model?
+True or false
+
+Readme Creation:
+Readme is in markdown and must contain the following:
+- A summary of the project.
+True or false
+- Machine Learning definition in their own words.
+True or false
+- Challenges they faced and how they overcame them.
+True or false
+- What they’ve learned from the project.
+True or false
+- Does it contain extra info?
+True or false (Bonus: 5 points)
+
+Total: 105%
